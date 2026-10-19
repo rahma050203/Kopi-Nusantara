@@ -14,6 +14,7 @@ buka `http://localhost/kopi-nusantara/` di browser
 ## penulis
 
 echo "# Kopi-Nusantara" >> README.md
+echo "# Kopi-Nusantara" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
@@ -25,4 +26,6 @@ git remote add origin https://github.com/rahma050203/Kopi-Nusantara.git
 git branch -M main
 git push -u origin main
 
-## commit pertama
+## commit pertama"# Kopi-Nusantara" 
+
+## commit setelah perbaikan git
