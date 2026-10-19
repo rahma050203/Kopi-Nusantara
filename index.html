@@ -1,0 +1,98 @@
+<!-- Pembuatan Struktur HTML  -->
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Kopi Nusantara</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+        <!-- CDN Bootstrap 5.3.8 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- CDN Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+<!-- TATA LETAK (layout) -->
+<body>
+    <!-- bagian heade  -->
+    <header class="site-header">
+        <!-- bagian brand  -->
+        <div class="brand">
+            <!-- bagian logo -->
+            <img src="img\logo.png" alt="logo kopi nusantara" class="logo">
+            <!-- bagian NAMA WEBSITE & TAGLINE -->
+            <div>
+                <!-- NAMA WEBSITE -->
+                <h2 class="site-title">kopi Nusantara</h2>
+                <!-- TAGLINE -->
+                <p class="tagline">Seduh semangat, nikmati indonesia</p>
+            </div>
+        </div>
+        <!-- bagian NAVIGASI - MAIN MENU -->
+        <nav class="main-menu" aria-label="Menu utama">
+        <ul id="menu"></ul>
+        </nav>
+    </header>
+    <!-- bagian CONTENT -->
+     <main class="site-content">
+        <!-- sub bagian untuk, Beranda -->
+        <section id="beranda">
+            <h2>Selamat datang</h2>
+            <p>kami menjual biji kopi pilihan dari seluruh indonesia</p>
+        </section>
+        <!-- sub bagian untuk, Produk -->
+<section id="produk">
+  <h2>Produk Kami</h2>
+  <!-- 🟢 CDN Style -->
+            <h4>Pencarian dengan Slug <em><small style="color: gray; font-size: 1.3rem">(CDN Style + Advanced
+                 Logic)</small></em>
+            </h4>
+            <div class="row g-3">
+                <div class="col-auto">
+                    <input type="text" class="form-control" id="inputSlugCDN" placeholder="kata kunci">
+                </div>
+                <div class="col-auto">
+                    <button onclick="cariSlugCDN()" class="btn btn-primary mb-3">Cari</button>
+                </div>
+                <div id="hasilCariCDN"></div>
+                <hr>
+            </div>
+  <div class="filters" id="filter-produk"></div>
+  <p class="meta" id="jumlah-produk"></p>
+  <div class="grid" id="daftar-produk"></div>
+</section>
+<!-- sub bagian untuk, Kontak -->
+<section id="kontak">
+    <h2>Hubungi Kami</h2>
+    <p>Email: halo@kopi-nusantara.test</p>
+    <form id="form-kontak" novalidate>
+        <label>Nama <input type="text" name="nama"></label>
+        <label>Pesan <textarea name="pesan" rows="4"></textarea></label>
+        <p id="form-status" role="status"></p>
+        <div class="tombol-kontak-group">
+            <button onclick="kirimPesanWA(event)" type="button" class="btn-wa">
+                <i class="bi bi-whatsapp"></i> Kirim ke WhatsApp
+            </button>
+            <button onclick="kirimPesanEmail(event)" type="submit" class="btn-email">
+                <i class="bi bi-envelope-fill"></i> Kirim ke Email
+            </button>
+        </div>
+    </form>
+</section>
+     </main>
+     <!-- bagian FOOTER  -->
+      <footer class="site-footer">
+       <p>&copy; <span id="tahun"></span> Kopi Nusantara. Hak cipta dilindungi.</p>
+      <p class="medsos"> <a href="https://www.instagram.com/rahmapopalo/" target="_blank"><i class="bi bi-instagram"></i> rahmapopalo</a> | <a href="https://www.tiktok.com/@rahmaaaap._" target="_blank"><i class="bi bi-tiktok"></i> amatchan</a> | <a href="https://www.facebook.com/rahmapopalo" target="_blank"><i class="bi bi-facebook"></i> rahmapopalo</a></p>
+    </footer>
+       <!-- <script src="datajs/data.js"></script>  -->
+    <script src="appjs/app.js"></script>
+    <script src="appjs/cari_slug_cdn.js"></script>
+    <script src="appjs/kirim_pesan.js"></script>
+</body>
+</html>
+
