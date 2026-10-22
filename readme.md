@@ -29,3 +29,6 @@ git push -u origin main
 ## commit pertama"# Kopi-Nusantara" 
 
 ## commit pertama
+## Bug: H16-B01
+1. icon keranjang di nav bar tidak berfungsi
+2. pencarian dengan slug tidak ada icon cari sehingga hasilnya tidak bisa ditampilkan
