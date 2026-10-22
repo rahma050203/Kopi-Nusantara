@@ -19,6 +19,7 @@
   ],
   "produk": [
     {
+      "id": 1,
       "slug": "toraja",
       "nama": "Kopi Toraja",
       "asal": "Sulawesi Selatan",
@@ -29,6 +30,7 @@
       "alt": "foto produk"
     },
     {
+      "id": 2,
       "slug": "gayo",
       "nama": "Kopi Gayo",
       "asal": "Aceh",
@@ -39,6 +41,7 @@
       "alt": "foto produk"
     },
     {
+      "id": 3,
       "slug": "kintamani",
       "nama": "Kopi Kintamani",
       "asal": "Bali",
@@ -49,6 +52,7 @@
       "alt": "foto produk"
     },
     {
+      "id": 4,
       "slug": "bajawa",
       "nama": "Kopi Bajawa",
       "asal": "Flores",
@@ -59,6 +63,7 @@
       "alt": "foto produk"
     },
     {
+      "id": 5,
       "slug": "lampung",
       "nama": "Robusta Lampung",
       "asal": "Lampung",
@@ -69,6 +74,7 @@
       "alt": "foto produk"
     },
     {
+      "id": 6,
       "slug": "temanggung",
       "nama": "Robusta Temanggung",
       "asal": "Jawa Tengah",
@@ -79,6 +85,7 @@
       "alt": "foto produk"
     },
     {
+      "id": 7,
       "slug": "mandheling",
       "nama": "Mandheling",
       "asal": "Sumatera Utara",
@@ -89,6 +96,7 @@
       "alt": "foto produk"
     },
     {
+      "id": 8,
       "slug": "bali-kintamani",
       "nama": "Bali Kintamani",
       "asal": "Bali",
@@ -99,6 +107,7 @@
       "alt": "foto produk"
     },
     {
+      "id": 9,
       "slug": "flores-bajawa",
       "nama": "Flores Bajawa",
       "asal": "Flores, NTT",
@@ -109,6 +118,7 @@
       "alt": "foto produk"
     },
     {
+      "id": 10,
       "slug": "aceh-gayo",
       "nama": "Aceh Gayo",
       "asal": "Aceh",
@@ -119,6 +129,7 @@
       "alt": "foto produk"
     },
     {
+      "id": 11,
       "slug": "toraja-sapan",
       "nama": "Toraja Sapan",
       "asal": "Toraja, Sulawesi Selatan",
@@ -129,6 +140,7 @@
       "alt": "foto produk"
     },
     {
+      "id": 12,
       "slug": "lampung-robusta-pahit-anang-body-kental",
       "nama": "Robusta Lampung",
       "asal": "Lampung",
@@ -139,6 +151,7 @@
       "alt": "foto produk"
     },
     {
+      "id": 13,
       "slug": "papua-peaberry",
       "nama": "Papua Peaberry",
       "asal": "Papua",
@@ -149,6 +162,7 @@
       "alt": "foto produk"
     },
     {
+      "id": 14,
       "slug": "jawa-tengah-robusta",
       "nama": "Robusta Temanggung",
       "asal": "Jawa Tengah",

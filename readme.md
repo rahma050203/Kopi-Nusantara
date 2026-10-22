@@ -28,4 +28,4 @@ git push -u origin main
 
 ## commit pertama"# Kopi-Nusantara" 
 
-## commit setelah perbaikan git
+## commit pertama

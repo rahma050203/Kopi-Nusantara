@@ -9,7 +9,8 @@ let SITE, MENU, PRODUCTS;
 
 /* Langkah 4. Tambahkan fungsi pemuat data tepat di bawahnya: */
 async function muatData() {
-  const respons = await fetch("data/produk.json");
+  //const respons = await fetch("data/produk.json");
+  const respons = await fetch("api/produk.php");
 
   if (!respons.ok) {
     throw new Error("Gagal memuat data (HTTP " + respons.status + ")");
@@ -39,6 +40,10 @@ async function mulai() {
     renderFilter();
     renderProduk();
     pasangFilterProduk();
+    renderKeranjang();
+    pasangAksiKeranjang();
+    perbaruiBadgeKeranjang();
+    pasangTombolKeranjang();
     //pasangEventFormulir();
   } catch (err) {
     app.innerHTML =
@@ -93,6 +98,11 @@ function kartuProduk(p) {
       <p class="meta">${esc(p.asal)} &middot; ${esc(p.kategori)}</p>
       <p>${esc(p.deskripsi)}</p>
       <p class="price">${rupiah(p.harga)}</p>
+      <button class="btn btn-keranjang" 
+          data-id="${p.id}" data-slug="${esc(p.slug)}" 
+          data-nama="${esc(p.nama)}" data-harga="${p.harga}"> 
+        + Keranjang 
+      </button>
       </article>`;
 }
 
@@ -135,5 +145,22 @@ function pasangFilterProduk() {
 /* Langkah F. Inisialisasi. Letakkan di paling bawah berkas. */
 // --- INISIALISASI ---
 document.getElementById("tahun").textContent = new Date().getFullYear();
-
+function pasangTombolKeranjang() { 
+  daftarEl.addEventListener("click", function (e) { 
+    const tombol = e.target.closest(".btn-keranjang"); 
+    if (!tombol) return; 
+ 
+    tambahKeKeranjang({ 
+      produk_id: Number(tombol.dataset.id), 
+      slug: tombol.dataset.slug, 
+      nama: tombol.dataset.nama, 
+      harga: Number(tombol.dataset.harga), 
+    }); 
+ 
+    tombol.textContent = "\u2713 Ditambahkan"; 
+    setTimeout(function () { 
+      tombol.textContent = "+ Keranjang"; 
+    }, 800); 
+  }); 
+}
 mulai();

@@ -1,0 +1,7 @@
+
+# data/.htaccess 
+# Menolak SEMUA permintaan langsung ke folder ini lewat browser. 
+# PHP di luar folder ini (api/, admin/) TETAP BISA membaca berkas di sini 
+# secara normal -- larangan ini hanya berlaku untuk permintaan lewat URL. 
+ 
+Require all denied 
