@@ -35,3 +35,4 @@ git push -u origin main
 
 ## Bug: H17-B01
 1. tidak terhubung server saat checkout
+2. sudah ditambahkan key "stok" di produk.json (tetap sama)
