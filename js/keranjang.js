@@ -121,6 +121,8 @@ function pasangAksiKeranjang() {
   }); 
 } 
 
+
+//H17 
 function pasangFormCheckout() { 
   const form     = document.getElementById("form-checkout"); 
   const statusEl = document.getElementById("status-checkout"); 

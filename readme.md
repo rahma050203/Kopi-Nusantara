@@ -36,3 +36,6 @@ git push -u origin main
 ## Bug: H17-B01
 1. tidak terhubung server saat checkout
 2. sudah ditambahkan key "stok" di produk.json (tetap sama)
+3. ada komen diluar php di file checkout.php
+4. JSON_Store salah sasaran
+5. Tidak PERHATIAN di Modul H16 -- Kode Transaksi ERROR

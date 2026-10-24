@@ -1,6 +1,3 @@
-// JANGAN DITIRU — hanya ilustrasi risiko 
-{ produk_id: 1, harga: 1, jumlah: 10 }   // harga diubah jadi Rp 1 lewat Console
-
 <?php 
 require __DIR__ . "/lib/json_store.php"; 
  

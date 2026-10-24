@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "kode_transaksi": "KN-807A5A85",
+        "nama_pemesan": "edsdsdsdsd",
+        "kontak": "2323232323232323",
+        "total": 85000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-24 02:31:51",
+        "items": [
+            {
+                "produk_id": 1,
+                "jumlah": 1,
+                "harga_saat_beli": 85000
+            }
+        ]
+    }
+]

@@ -1,190 +1,190 @@
 {
-  "site": {
-    "nama": "Kopi Nusantara",
-    "email": "halo@kopinusantara.test"
-  },
-  "menu": [
-    {
-      "id": "beranda",
-      "label": "Beranda"
+    "site": {
+        "nama": "Kopi Nusantara",
+        "email": "halo@kopinusantara.test"
     },
-    {
-      "id": "produk",
-      "label": "Produk"
-    },
-    {
-      "id": "kontak",
-      "label": "Kontak"
-    }
-  ],
-  "produk": [
-    {
-      "id": 1,
-      "slug": "toraja",
-      "nama": "Kopi Toraja",
-      "asal": "Sulawesi Selatan",
-      "kategori": "arabika",
-      "harga": 85000,
-      "deskripsi": "Body tebal, aroma rempah dan cokelat gelap.",
-      "foto": "img/toraja.jpg",
-      "stok": 15,
-      "alt": "foto produk"
-    },
-    {
-      "id": 2,
-      "slug": "gayo",
-      "nama": "Kopi Gayo",
-      "asal": "Aceh",
-      "kategori": "arabika",
-      "harga": 80000,
-      "deskripsi": "Rasa bersih dengan sentuhan karamel.",
-      "foto": "img/imagesgayo.jpg",
-      "stok": 15,
-      "alt": "foto produk"
-    },
-    {
-      "id": 3,
-      "slug": "kintamani",
-      "nama": "Kopi Kintamani",
-      "asal": "Bali",
-      "kategori": "arabika",
-      "harga": 90000,
-      "deskripsi": "Keasaman cerah seperti jeruk, ringan dan segar.",
-      "foto": "img/imageskintamani.jpg",
-      "stok": 15,
-      "alt": "foto produk"
-    },
-    {
-      "id": 4,
-      "slug": "bajawa",
-      "nama": "Kopi Bajawa",
-      "asal": "Flores",
-      "kategori": "arabika",
-      "harga": 88000,
-      "deskripsi": "Aroma floral dengan aftertaste manis.",
-      "foto": "img/imagesbajawa.jpg",
-      "stok": 15,
-      "alt": "foto produk"
-    },
-    {
-      "id": 5,
-      "slug": "lampung",
-      "nama": "Robusta Lampung",
-      "asal": "Lampung",
-      "kategori": "robusta",
-      "harga": 60000,
-      "deskripsi": "Pahit tegas dan kental, cocok untuk kopi susu.",
-      "foto": "img/imageslampung.jpg",
-      "stok": 15,
-      "alt": "foto produk"
-    },
-    {
-      "id": 6,
-      "slug": "temanggung",
-      "nama": "Robusta Temanggung",
-      "asal": "Jawa Tengah",
-      "kategori": "robusta",
-      "harga": 65000,
-      "deskripsi": "Rasa earthy dengan aroma kacang panggang.",
-      "foto": "img/imagestemanggung.jpg",
-      "stok": 15,
-      "alt": "foto produk"
-    },
-    {
-      "id": 7,
-      "slug": "mandheling",
-      "nama": "Mandheling",
-      "asal": "Sumatera Utara",
-      "kategori": "arabika",
-      "harga": 82000,
-      "deskripsi": "Body full, rasa cokelat, nutty, dan sedikit rempah.",
-      "foto": "img/produk.png",
-      "stok": 15,
-      "alt": "foto produk"
-    },
-    {
-      "id": 8,
-      "slug": "bali-kintamani",
-      "nama": "Bali Kintamani",
-      "asal": "Bali",
-      "kategori": "arabika",
-      "harga": 87000,
-      "deskripsi": "Keasaman cerah, aroma jeruk, body ringan.",
-      "foto": "img/imageskintamani.jpg",
-      "stok": 15,
-      "alt": "foto produk"
-    },
-    {
-      "id": 9,
-      "slug": "flores-bajawa",
-      "nama": "Flores Bajawa",
-      "asal": "Flores, NTT",
-      "kategori": "arabika",
-      "harga": 89000,
-      "deskripsi": "Body medium, rasa rempah, floral, dan manis.",
-      "foto": "img/imagesbajawa.jpg",
-      "stok": 15,
-      "alt": "foto produk"
-    },
-    {
-      "id": 10,
-      "slug": "aceh-gayo",
-      "nama": "Aceh Gayo",
-      "asal": "Aceh",
-      "kategori": "arabika",
-      "harga": 84000,
-      "deskripsi": "Rasa bersih, kompleks, body medium-full, aroma rempah.",
-      "foto": "img/imagesgayo.jpg",
-      "stok": 15,
-      "alt": "foto produk"
-    },
-    {
-      "id": 11,
-      "slug": "toraja-sapan",
-      "nama": "Toraja Sapan",
-      "asal": "Toraja, Sulawesi Selatan",
-      "kategori": "arabika",
-      "harga": 91000,
-      "deskripsi": "Body tebal, rasa cokelat, rempah, dan buah tropis.",
-      "foto": "img/produk.png",
-      "stok": 15,
-      "alt": "foto produk"
-    },
-    {
-      "id": 12,
-      "slug": "lampung-robusta-pahit-anang-body-kental",
-      "nama": "Robusta Lampung",
-      "asal": "Lampung",
-      "kategori": "robusta",
-      "harga": 62000,
-      "deskripsi": "Pahit tegas, body kental, aroma kacang.",
-      "foto": "img/imagesrobusta.jpg",
-      "stok": 15,
-      "alt": "foto produk"
-    },
-    {
-      "id": 13,
-      "slug": "papua-peaberry",
-      "nama": "Papua Peaberry",
-      "asal": "Papua",
-      "kategori": "arabika",
-      "harga": 95000,
-      "deskripsi": "Body ringan, rasa cokelat, pedas, dan unik.",
-      "foto": "img/produk.png",
-      "stok": 15,
-      "alt": "foto produk"
-    },
-    {
-      "id": 14,
-      "slug": "jawa-tengah-robusta",
-      "nama": "Robusta Temanggung",
-      "asal": "Jawa Tengah",
-      "kategori": "robusta",
-      "harga": 61000,
-      "deskripsi": "Rasa earthy, nutty, body full.",
-      "foto": "img/imagesrobusta.jpg",
-      "stok": 15,
-      "alt": "foto produk"
-    }
-  ]
+    "menu": [
+        {
+            "id": "beranda",
+            "label": "Beranda"
+        },
+        {
+            "id": "produk",
+            "label": "Produk"
+        },
+        {
+            "id": "kontak",
+            "label": "Kontak"
+        }
+    ],
+    "produk": [
+        {
+            "id": 1,
+            "slug": "toraja",
+            "nama": "Kopi Toraja",
+            "asal": "Sulawesi Selatan",
+            "kategori": "arabika",
+            "harga": 85000,
+            "deskripsi": "Body tebal, aroma rempah dan cokelat gelap.",
+            "foto": "img/toraja.jpg",
+            "stok": 14,
+            "alt": "foto produk"
+        },
+        {
+            "id": 2,
+            "slug": "gayo",
+            "nama": "Kopi Gayo",
+            "asal": "Aceh",
+            "kategori": "arabika",
+            "harga": 80000,
+            "deskripsi": "Rasa bersih dengan sentuhan karamel.",
+            "foto": "img/imagesgayo.jpg",
+            "stok": 15,
+            "alt": "foto produk"
+        },
+        {
+            "id": 3,
+            "slug": "kintamani",
+            "nama": "Kopi Kintamani",
+            "asal": "Bali",
+            "kategori": "arabika",
+            "harga": 90000,
+            "deskripsi": "Keasaman cerah seperti jeruk, ringan dan segar.",
+            "foto": "img/imageskintamani.jpg",
+            "stok": 15,
+            "alt": "foto produk"
+        },
+        {
+            "id": 4,
+            "slug": "bajawa",
+            "nama": "Kopi Bajawa",
+            "asal": "Flores",
+            "kategori": "arabika",
+            "harga": 88000,
+            "deskripsi": "Aroma floral dengan aftertaste manis.",
+            "foto": "img/imagesbajawa.jpg",
+            "stok": 15,
+            "alt": "foto produk"
+        },
+        {
+            "id": 5,
+            "slug": "lampung",
+            "nama": "Robusta Lampung",
+            "asal": "Lampung",
+            "kategori": "robusta",
+            "harga": 60000,
+            "deskripsi": "Pahit tegas dan kental, cocok untuk kopi susu.",
+            "foto": "img/imageslampung.jpg",
+            "stok": 15,
+            "alt": "foto produk"
+        },
+        {
+            "id": 6,
+            "slug": "temanggung",
+            "nama": "Robusta Temanggung",
+            "asal": "Jawa Tengah",
+            "kategori": "robusta",
+            "harga": 65000,
+            "deskripsi": "Rasa earthy dengan aroma kacang panggang.",
+            "foto": "img/imagestemanggung.jpg",
+            "stok": 15,
+            "alt": "foto produk"
+        },
+        {
+            "id": 7,
+            "slug": "mandheling",
+            "nama": "Mandheling",
+            "asal": "Sumatera Utara",
+            "kategori": "arabika",
+            "harga": 82000,
+            "deskripsi": "Body full, rasa cokelat, nutty, dan sedikit rempah.",
+            "foto": "img/produk.png",
+            "stok": 15,
+            "alt": "foto produk"
+        },
+        {
+            "id": 8,
+            "slug": "bali-kintamani",
+            "nama": "Bali Kintamani",
+            "asal": "Bali",
+            "kategori": "arabika",
+            "harga": 87000,
+            "deskripsi": "Keasaman cerah, aroma jeruk, body ringan.",
+            "foto": "img/imageskintamani.jpg",
+            "stok": 15,
+            "alt": "foto produk"
+        },
+        {
+            "id": 9,
+            "slug": "flores-bajawa",
+            "nama": "Flores Bajawa",
+            "asal": "Flores, NTT",
+            "kategori": "arabika",
+            "harga": 89000,
+            "deskripsi": "Body medium, rasa rempah, floral, dan manis.",
+            "foto": "img/imagesbajawa.jpg",
+            "stok": 15,
+            "alt": "foto produk"
+        },
+        {
+            "id": 10,
+            "slug": "aceh-gayo",
+            "nama": "Aceh Gayo",
+            "asal": "Aceh",
+            "kategori": "arabika",
+            "harga": 84000,
+            "deskripsi": "Rasa bersih, kompleks, body medium-full, aroma rempah.",
+            "foto": "img/imagesgayo.jpg",
+            "stok": 15,
+            "alt": "foto produk"
+        },
+        {
+            "id": 11,
+            "slug": "toraja-sapan",
+            "nama": "Toraja Sapan",
+            "asal": "Toraja, Sulawesi Selatan",
+            "kategori": "arabika",
+            "harga": 91000,
+            "deskripsi": "Body tebal, rasa cokelat, rempah, dan buah tropis.",
+            "foto": "img/produk.png",
+            "stok": 15,
+            "alt": "foto produk"
+        },
+        {
+            "id": 12,
+            "slug": "lampung-robusta-pahit-anang-body-kental",
+            "nama": "Robusta Lampung",
+            "asal": "Lampung",
+            "kategori": "robusta",
+            "harga": 62000,
+            "deskripsi": "Pahit tegas, body kental, aroma kacang.",
+            "foto": "img/imagesrobusta.jpg",
+            "stok": 15,
+            "alt": "foto produk"
+        },
+        {
+            "id": 13,
+            "slug": "papua-peaberry",
+            "nama": "Papua Peaberry",
+            "asal": "Papua",
+            "kategori": "arabika",
+            "harga": 95000,
+            "deskripsi": "Body ringan, rasa cokelat, pedas, dan unik.",
+            "foto": "img/produk.png",
+            "stok": 15,
+            "alt": "foto produk"
+        },
+        {
+            "id": 14,
+            "slug": "jawa-tengah-robusta",
+            "nama": "Robusta Temanggung",
+            "asal": "Jawa Tengah",
+            "kategori": "robusta",
+            "harga": 61000,
+            "deskripsi": "Rasa earthy, nutty, body full.",
+            "foto": "img/imagesrobusta.jpg",
+            "stok": 15,
+            "alt": "foto produk"
+        }
+    ]
 }
