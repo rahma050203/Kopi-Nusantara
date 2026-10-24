@@ -39,3 +39,36 @@ git push -u origin main
 3. ada komen diluar php di file checkout.php
 4. JSON_Store salah sasaran
 5. Tidak PERHATIAN di Modul H16 -- Kode Transaksi ERROR
+
+### Pengamatan
+1. link untuk lihat struk : http://kopi-nusantara.test/api/struk.php?kode=KN-9D456A60
+2. link untuk unduh struk : http://kopi-nusantara.test/api/struk.php?kode=KN-9D456A60&unduh=1
+3. hasil struk :
+Kode Transaksi : KN-9D456A60
+Struk Kopi Nusantara
+Nama Pemesan   : rahma
+Kontak         : 08128585935
+Tanggal        : 2026-10-24 05:35:25 //? jam tidak sesusai
+Produk
+Kopi Toraja
+Jumlah Harga
+Subtotal
+2
+Kopi Kintamani
+1
+Rp 85.000
+Rp 170.000
+Rp 90.000
+Rp 90.000
+Kopi Bajawa
+Mandheling
+1
+Rp 88.000
+Rp 88.000
+1
+Rp 82.000
+Rp 82.000
+Total
+Rp 430.000
+
+4. subtotal tidak tampil di devtool tapi keluar di struk
