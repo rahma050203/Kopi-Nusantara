@@ -44,6 +44,7 @@ async function mulai() {
     pasangAksiKeranjang();
     perbaruiBadgeKeranjang();
     pasangTombolKeranjang();
+    pasangFormCheckout();
     //pasangEventFormulir();
   } catch (err) {
     app.innerHTML =

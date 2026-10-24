@@ -5,7 +5,7 @@
 // json_store.php: fungsi terpusat untuk membaca dan menulis berkas JSON. 
 // Dipakai oleh SELURUH endpoint di Bagian B2 -- satu tempat, satu kebenaran. 
  
-/* function bacaJson(string $path): array { 
+function bacaJson(string $path): array { 
     if (!file_exists($path)) { 
         return [];   // berkas belum ada dianggap "data kosong", bukan galat 
     } 
@@ -20,7 +20,7 @@ function tulisJson(string $path, array $data): bool {
     // dua proses menulis ke berkas yang sama secara bersamaan. \
     
     return file_put_contents($path, $teks, LOCK_EX) !== false; 
-} */
+}  
  
 function bukaJsonTerkunci(string $path, &$handle): array { 
     $handle = fopen($path, "c+");   // "c+": buat jika belum ada, boleh baca & tulis 

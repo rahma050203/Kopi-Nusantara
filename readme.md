@@ -32,3 +32,6 @@ git push -u origin main
 ## Bug: H16-B01
 1. icon keranjang di nav bar tidak berfungsi
 2. pencarian dengan slug tidak ada icon cari sehingga hasilnya tidak bisa ditampilkan
+
+## Bug: H17-B01
+1. tidak terhubung server saat checkout

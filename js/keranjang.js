@@ -120,3 +120,74 @@ function pasangAksiKeranjang() {
     if (aksi === "hapus") hapusDariKeranjang(id); 
   }); 
 } 
+
+function pasangFormCheckout() { 
+  const form     = document.getElementById("form-checkout"); 
+  const statusEl = document.getElementById("status-checkout"); 
+ 
+  form.addEventListener("submit", async function (e) { 
+    e.preventDefault(); 
+ 
+    const keranjang = ambilKeranjang(); 
+    if (keranjang.length === 0) { 
+      statusEl.textContent = "Keranjang masih kosong."; 
+      return; 
+    } 
+ 
+    const payload = { 
+      nama_pemesan: form.nama_pemesan.value.trim(), 
+      kontak: form.kontak.value.trim(), 
+      items: keranjang.map(function (item) { 
+        return { produk_id: item.produk_id, jumlah: item.jumlah }; 
+      }), 
+    }; 
+ 
+    statusEl.textContent = "Memproses pesanan..."; 
+ 
+    try { 
+      const respons = await fetch("api/checkout.php", { 
+        method: "POST", 
+        headers: { "Content-Type": "application/json" }, 
+        body: JSON.stringify(payload), 
+      }); 
+      const hasil = await respons.json(); 
+ 
+      if (!respons.ok) { 
+        statusEl.textContent = hasil.error || "Checkout gagal."; 
+        return; 
+      } 
+ 
+      simpanKeranjang([]); 
+      perbaruiBadgeKeranjang(); 
+      tampilkanKonfirmasi(hasil); 
+    } catch (err) { 
+      statusEl.textContent = "Tidak dapat terhubung ke server."; 
+      console.error(err); 
+    } 
+  }); 
+} 
+ 
+function tampilkanKonfirmasi(hasil) { 
+  const isiEl    = document.getElementById("isi-keranjang"); 
+  const totalEl  = document.getElementById("total-keranjang"); 
+  const formEl   = document.getElementById("form-checkout"); 
+  const statusEl = document.getElementById("status-checkout"); 
+ 
+  formEl.hidden = true; 
+  totalEl.textContent = ""; 
+  statusEl.textContent = ""; 
+ 
+  isiEl.innerHTML = ` 
+    <div class="status" role="status"> 
+      <p><strong>Pesanan berhasil dibuat!</strong></p> 
+      <p>Kode pesanan Anda: <strong>${esc(hasil.kode_transaksi)}</strong></p> 
+      <p>Total: <strong>${rupiah(hasil.total)}</strong></p> 
+      <p> 
+        <a class="btn" href="api/struk.php?kode=${esc(hasil.kode_transaksi)}" target="_blank">Lihat 
+Struk (PDF)</a> 
+        <a class="btn" href="api/struk.php?kode=${esc(hasil.kode_transaksi)}&unduh=1">Unduh Struk 
+(PDF)</a> 
+      </p> 
+    </div> 
+  `; 
+}

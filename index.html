@@ -46,6 +46,13 @@
         <h2>Keranjang Belanja</h2>
         <div id="isi-keranjang"></div>
          <p class="total-keranjang">Total: <span id="total-keranjang">Rp 0</span></p>
+        <form id="form-checkout">
+        <label>Nama Pemesan <input type="text" name="nama_pemesan" required></label>
+        <label>Nomor WhatsApp <input type="text" name="kontak" required 
+        placeholder="08xxxxxxxxxx"></label>
+        <button type="submit" class="btn">Checkout</button>
+</form>
+<p id="status-checkout" role="status"></p>
         </section>
         <!-- sub bagian untuk, Beranda -->
         <section id="beranda">
