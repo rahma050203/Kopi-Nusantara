@@ -72,3 +72,50 @@ Total
 Rp 430.000
 
 4. subtotal tidak tampil di devtool tapi keluar di struk
+
+## H17 - Kegiatan Belajar 5F.2: Endpoint Checkout dan Penguncian Berkas
+**1. BUG-01**
+FrontEnd: Tidak dapat terhubung ke server.
+DevTools-Console Error: 
+```
+keranjang.js:147  POST http://kopi-nusantara.test/api/checkout.php 400 (Bad Request)
+(anonymous) @ keranjang.js:147
+
+keranjang.js:164 SyntaxError: Unexpected token '<', "<br />
+<b>"... is not valid JSON (at VM339:1:1)
+(anonymous) @ keranjang.js:164
+```
+**BUG-FIXED:**
+Di produk.json -> cek apakah sudah diisi:
+Array produk -> key & value "stok: 20"
+
+**2. BUG-02**
+Jam di `transaksi.json` -> item transaksi `dibuat_pada: tidak sesuai` 😇
+_Otomatis akan berpengaruh (legacy-bug) pada H18 - Modul-5F.3: Struk PDF dengan FPDF_
+
+**BUG-FIXED:**
+1. Buka file `php.ini` di Laragon
+2. Cari `date.timezone`
+3. Hilangkan semicolon (komen `;` di depannya)
+4. isi dengan `date.timezone = Asia/Makassar`
+
+_Catatan: Sesuaikan Wilayah Waktu Anda_
+
+**Pengembangan**
+- `Isi KERANJANG`, tidak otomatis tampil / `no-autoreload` (kecuali F5).
+- `Lihat Struk` dan `Unduh Struk`, belum berfungsi.
+
+## H18 - Kegiatan Belajar Modul 5F.3: Composer dan FPDF — Struk PDF
+**Fitur**
+- Penerapan PATCH-01 `autoreload.js` | `patch/01-patch-autoreload.js`
+- [Lihat Struk](http://kopi-nusantara.test/api/struk.php?kode=KN-ECEA926A) Sudah berfungsi
+- [Unduh Struk](http://kopi-nusantara.test/api/struk.php?kode=KN-ECEA926A&unduh=1) Sudah berfungsi
+
+**BUG**
+- H18-001: Aktifitas `Tambah Keranjang` setelah `Checkout` menyembunyikan `Form Checkout` dari `Keranjang Belanja`.
+
+**BUG-FIXED**
+- H18-001: Next H19...
+
+**Pengembangan**
+- Ubah ukuran kertas Struk agar sesuai dengan POS-Printer (Pelajari Manual FPDF).

@@ -27,7 +27,7 @@
             "harga": 85000,
             "deskripsi": "Body tebal, aroma rempah dan cokelat gelap.",
             "foto": "img/toraja.jpg",
-            "stok": 12,
+            "stok": 96,
             "alt": "foto produk"
         },
         {
@@ -39,7 +39,7 @@
             "harga": 80000,
             "deskripsi": "Rasa bersih dengan sentuhan karamel.",
             "foto": "img/imagesgayo.jpg",
-            "stok": 15,
+            "stok": 99,
             "alt": "foto produk"
         },
         {
@@ -51,7 +51,7 @@
             "harga": 90000,
             "deskripsi": "Keasaman cerah seperti jeruk, ringan dan segar.",
             "foto": "img/imageskintamani.jpg",
-            "stok": 14,
+            "stok": 96,
             "alt": "foto produk"
         },
         {
@@ -63,7 +63,7 @@
             "harga": 88000,
             "deskripsi": "Aroma floral dengan aftertaste manis.",
             "foto": "img/imagesbajawa.jpg",
-            "stok": 14,
+            "stok": 95,
             "alt": "foto produk"
         },
         {
@@ -75,7 +75,7 @@
             "harga": 60000,
             "deskripsi": "Pahit tegas dan kental, cocok untuk kopi susu.",
             "foto": "img/imageslampung.jpg",
-            "stok": 15,
+            "stok": 100,
             "alt": "foto produk"
         },
         {
@@ -87,7 +87,7 @@
             "harga": 65000,
             "deskripsi": "Rasa earthy dengan aroma kacang panggang.",
             "foto": "img/imagestemanggung.jpg",
-            "stok": 15,
+            "stok": 98,
             "alt": "foto produk"
         },
         {
@@ -99,7 +99,7 @@
             "harga": 82000,
             "deskripsi": "Body full, rasa cokelat, nutty, dan sedikit rempah.",
             "foto": "img/produk.png",
-            "stok": 14,
+            "stok": 99,
             "alt": "foto produk"
         },
         {
@@ -111,7 +111,7 @@
             "harga": 87000,
             "deskripsi": "Keasaman cerah, aroma jeruk, body ringan.",
             "foto": "img/imageskintamani.jpg",
-            "stok": 15,
+            "stok": 98,
             "alt": "foto produk"
         },
         {
@@ -123,7 +123,7 @@
             "harga": 89000,
             "deskripsi": "Body medium, rasa rempah, floral, dan manis.",
             "foto": "img/imagesbajawa.jpg",
-            "stok": 14,
+            "stok": 99,
             "alt": "foto produk"
         },
         {
@@ -135,7 +135,7 @@
             "harga": 84000,
             "deskripsi": "Rasa bersih, kompleks, body medium-full, aroma rempah.",
             "foto": "img/imagesgayo.jpg",
-            "stok": 14,
+            "stok": 100,
             "alt": "foto produk"
         },
         {
@@ -147,7 +147,7 @@
             "harga": 91000,
             "deskripsi": "Body tebal, rasa cokelat, rempah, dan buah tropis.",
             "foto": "img/produk.png",
-            "stok": 14,
+            "stok": 99,
             "alt": "foto produk"
         },
         {
@@ -159,7 +159,7 @@
             "harga": 62000,
             "deskripsi": "Pahit tegas, body kental, aroma kacang.",
             "foto": "img/imagesrobusta.jpg",
-            "stok": 15,
+            "stok": 100,
             "alt": "foto produk"
         },
         {
@@ -171,7 +171,7 @@
             "harga": 95000,
             "deskripsi": "Body ringan, rasa cokelat, pedas, dan unik.",
             "foto": "img/produk.png",
-            "stok": 15,
+            "stok": 100,
             "alt": "foto produk"
         },
         {
@@ -183,7 +183,7 @@
             "harga": 61000,
             "deskripsi": "Rasa earthy, nutty, body full.",
             "foto": "img/imagesrobusta.jpg",
-            "stok": 15,
+            "stok": 100,
             "alt": "foto produk"
         }
     ]

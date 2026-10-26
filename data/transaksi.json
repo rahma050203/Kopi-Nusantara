@@ -71,5 +71,292 @@
                 "harga_saat_beli": 82000
             }
         ]
+    },
+    {
+        "id": 4,
+        "kode_transaksi": "KN-E88279E8",
+        "nama_pemesan": "rahma",
+        "kontak": "08128585935",
+        "total": 85000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 02:21:15",
+        "items": [
+            {
+                "produk_id": 1,
+                "jumlah": 1,
+                "harga_saat_beli": 85000
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "kode_transaksi": "KN-B11571BE",
+        "nama_pemesan": "rahma",
+        "kontak": "08128585935",
+        "total": 255000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 02:27:52",
+        "items": [
+            {
+                "produk_id": 1,
+                "jumlah": 1,
+                "harga_saat_beli": 85000
+            },
+            {
+                "produk_id": 2,
+                "jumlah": 1,
+                "harga_saat_beli": 80000
+            },
+            {
+                "produk_id": 3,
+                "jumlah": 1,
+                "harga_saat_beli": 90000
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "kode_transaksi": "KN-0CEDC0FC",
+        "nama_pemesan": "rahma",
+        "kontak": "08128585935",
+        "total": 343000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 02:33:38",
+        "items": [
+            {
+                "produk_id": 1,
+                "jumlah": 1,
+                "harga_saat_beli": 85000
+            },
+            {
+                "produk_id": 2,
+                "jumlah": 1,
+                "harga_saat_beli": 80000
+            },
+            {
+                "produk_id": 3,
+                "jumlah": 1,
+                "harga_saat_beli": 90000
+            },
+            {
+                "produk_id": 4,
+                "jumlah": 1,
+                "harga_saat_beli": 88000
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "kode_transaksi": "KN-0744211E",
+        "nama_pemesan": "rahma",
+        "kontak": "08128585935",
+        "total": 165000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 02:37:21",
+        "items": [
+            {
+                "produk_id": 1,
+                "jumlah": 1,
+                "harga_saat_beli": 85000
+            },
+            {
+                "produk_id": 2,
+                "jumlah": 1,
+                "harga_saat_beli": 80000
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "kode_transaksi": "KN-A2181BEC",
+        "nama_pemesan": "botak",
+        "kontak": "121212121212121",
+        "total": 255000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 02:58:29",
+        "items": [
+            {
+                "produk_id": 1,
+                "jumlah": 1,
+                "harga_saat_beli": 85000
+            },
+            {
+                "produk_id": 2,
+                "jumlah": 1,
+                "harga_saat_beli": 80000
+            },
+            {
+                "produk_id": 3,
+                "jumlah": 1,
+                "harga_saat_beli": 90000
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "kode_transaksi": "KN-E2D3B421",
+        "nama_pemesan": "rahma",
+        "kontak": "121212121212121",
+        "total": 173000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 03:00:24",
+        "items": [
+            {
+                "produk_id": 1,
+                "jumlah": 1,
+                "harga_saat_beli": 85000
+            },
+            {
+                "produk_id": 4,
+                "jumlah": 1,
+                "harga_saat_beli": 88000
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "kode_transaksi": "KN-986D45EB",
+        "nama_pemesan": "rahma",
+        "kontak": "hh",
+        "total": 152000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 03:04:49",
+        "items": [
+            {
+                "produk_id": 6,
+                "jumlah": 1,
+                "harga_saat_beli": 65000
+            },
+            {
+                "produk_id": 8,
+                "jumlah": 1,
+                "harga_saat_beli": 87000
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "kode_transaksi": "KN-A5BDE83C",
+        "nama_pemesan": "rahma",
+        "kontak": "08128585935",
+        "total": 497000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 03:09:28",
+        "items": [
+            {
+                "produk_id": 1,
+                "jumlah": 1,
+                "harga_saat_beli": 85000
+            },
+            {
+                "produk_id": 3,
+                "jumlah": 1,
+                "harga_saat_beli": 90000
+            },
+            {
+                "produk_id": 4,
+                "jumlah": 1,
+                "harga_saat_beli": 88000
+            },
+            {
+                "produk_id": 6,
+                "jumlah": 1,
+                "harga_saat_beli": 65000
+            },
+            {
+                "produk_id": 7,
+                "jumlah": 1,
+                "harga_saat_beli": 82000
+            },
+            {
+                "produk_id": 8,
+                "jumlah": 1,
+                "harga_saat_beli": 87000
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "kode_transaksi": "KN-0A58B786",
+        "nama_pemesan": "botak",
+        "kontak": "08128585935",
+        "total": 173000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 03:10:05",
+        "items": [
+            {
+                "produk_id": 4,
+                "jumlah": 1,
+                "harga_saat_beli": 88000
+            },
+            {
+                "produk_id": 1,
+                "jumlah": 1,
+                "harga_saat_beli": 85000
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "kode_transaksi": "KN-56E6637C",
+        "nama_pemesan": "rahma",
+        "kontak": "08128585935",
+        "total": 180000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 03:15:33",
+        "items": [
+            {
+                "produk_id": 11,
+                "jumlah": 1,
+                "harga_saat_beli": 91000
+            },
+            {
+                "produk_id": 9,
+                "jumlah": 1,
+                "harga_saat_beli": 89000
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "kode_transaksi": "KN-82729404",
+        "nama_pemesan": "rahma",
+        "kontak": "08128585935",
+        "total": 178000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 03:16:34",
+        "items": [
+            {
+                "produk_id": 3,
+                "jumlah": 1,
+                "harga_saat_beli": 90000
+            },
+            {
+                "produk_id": 4,
+                "jumlah": 1,
+                "harga_saat_beli": 88000
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "kode_transaksi": "KN-7788973A",
+        "nama_pemesan": "botak",
+        "kontak": "081536465454",
+        "total": 178000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 03:16:46",
+        "items": [
+            {
+                "produk_id": 3,
+                "jumlah": 1,
+                "harga_saat_beli": 90000
+            },
+            {
+                "produk_id": 4,
+                "jumlah": 1,
+                "harga_saat_beli": 88000
+            }
+        ]
     }
 ]
